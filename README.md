@@ -1,5 +1,7 @@
-# Movie_Search
-Movie Search and Display Manager with a GUI!
+# Movie Search and Display Manager 
+Source data: Rotten Tomatoes Most Anticipated Movies of 2021
+
+## Back-end
 
 This back-end of this program traverses through a website, "https://editorial.rottentomatoes.com/article/most-anticipated-movies-of-2021/", 
 and used BeautifulSoup and requests to obtain data points of movies listed in the website. Data is then created into a SQL database and .json file. The processing of this website from its HTML code is cumbersome, hence the many if statements in the backend processing of this website into data structure. However, they are a way to navigate through inconsistency with the website's HTML counterpart despite the neat display. 
@@ -12,6 +14,8 @@ Feautures used in the back-end:
   - MoviesDB, a table, would consist of the title, url, month, director, and a set of 11 actors 
   - MonthsDB, a table, would consist of the month of release and the title of the movie
 
+## Front-end
+
 The front-end of this program interacts with the user with three windows: a display, dialog, and main window.
 
 Feautures used in the front-end:
@@ -20,7 +24,9 @@ Feautures used in the front-end:
   - A display window is used to manage ways to display multiple/one movie showing the: Movie name, Director, and Main Actors starring in the show
   - A dialog window is used to manage the SQL database made and display according to the user choice from the main window, described in detail below
   - A main window is used to manage all windows, calling on the dialog and display window according to the user clicks and establishing tkinter Buttons, Labels, Title and Grids for the user interface.
-- 
+
+## A visualization of the program!
+
 It's initial page is meant for users to choose through three choices:
 ![alt text](initial_display.png)
 
