@@ -6,7 +6,7 @@ Source data: Rotten Tomatoes Most Anticipated Movies of 2021
 This back-end of this program traverses through a website, "https://editorial.rottentomatoes.com/article/most-anticipated-movies-of-2021/", 
 and used BeautifulSoup and requests to obtain data points of movies listed in the website. Data is then created into a SQL database and .json file. The processing of this website from its HTML code is cumbersome, hence the many if statements in the backend processing of this website into data structure. However, they are a way to navigate through inconsistency with the website's HTML counterpart despite the neat display. 
 
-Feautures used in the back-end:
+Features used in the back-end:
 - requests, BeautifulSoup is used to get the webpage's content (using a parser and class specification)
 - Data is read in and stored in a collections default dictionary to more easily add in new data points
 - Data is then dumped into a JSON file
@@ -18,7 +18,7 @@ Feautures used in the back-end:
 
 The front-end of this program interacts with the user with three windows: a display, dialog, and main window.
 
-Feautures used in the front-end:
+Features used in the front-end:
 - When a long list of choices is presented to a user (Re: list of movies in the Webpage window, actors' name, and months of the year), a tkinter Listbox and Scrollbar for users to comfortably skim through their choices. 
 - tkinter is used to manage the different windows in an orderly display:
   - A display window is used to manage ways to display multiple/one movie showing the: Movie name, Director, and Main Actors starring in the show
